@@ -1,4 +1,4 @@
-# MCP Assistant Connector — Chrome Extension (source)
+# sidehelp - MCP Assistant Connector — Chrome Extension (source)
 
 What this is
 - A Chrome extension (manifest v3) that injects a small assistant sidebar into GitHub pages, provides a popup, and an options page.
