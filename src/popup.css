@@ -1,0 +1,8 @@
+body { margin: 0; font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto; width: 360px; color: #111; }
+.popup { padding: 12px; }
+.popup h3 { margin: 0 0 8px 0; font-size: 14px; }
+textarea#popup-prompt { width: 100%; min-height: 60px; padding: 6px; border-radius: 6px; border: 1px solid #ddd; }
+.popup-controls { display:flex; gap:8px; margin-top:8px; }
+.popup-controls button { flex:1; padding:8px; border-radius:6px; }
+.popup-response { white-space: pre-wrap; margin-top:8px; max-height:240px; overflow:auto; background:#f8f8f8; padding:8px; border-radius:6px; border:1px solid #eee; }
+.popup-footer { margin-top:8px; font-size:12px; }

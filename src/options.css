@@ -1,0 +1,7 @@
+body { font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto; margin: 0; padding: 12px; color: #111; }
+.options { max-width: 720px; margin: 0 auto; }
+label { display:block; margin-top: 12px; font-weight:600; }
+input[type="text"], input[type="password"], input[type="number"] { width: 100%; padding: 8px; border-radius:6px; border:1px solid #ddd; margin-top:6px; box-sizing:border-box;}
+.buttons { display:flex; gap:8px; margin-top:12px; }
+.buttons button { padding:8px 12px; border-radius:6px; }
+.note { margin-top:12px; font-size:12px; color:#555; }
