@@ -3,8 +3,10 @@
   position: fixed;
   right: 12px;
   bottom: 12px;
-  width: 360px;
+  /* Width increased from 360px to 380px to accommodate quick action buttons grid */
+  width: 380px;
   max-width: calc(100% - 24px);
+  max-height: calc(100vh - 24px);
   z-index: 2147483647;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
   border-radius: 12px;
@@ -14,6 +16,22 @@
   color: #e6eef5;
   border: 1px solid rgba(255,255,255,0.04);
   transition: transform 220ms ease, opacity 220ms ease;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  #mcp-assistant-sidebar {
+    transition: none;
+  }
+  #mcp-assistant-sidebar button {
+    transition: none;
+  }
+  .mcp-quick-btn:hover,
+  .mcp-controls button:hover {
+    transform: none !important;
+  }
 }
 
 /* collapsed state only shows header */
@@ -31,6 +49,7 @@
   justify-content: space-between;
   gap: 8px;
   padding: 10px;
+  flex-shrink: 0;
 }
 
 #mcp-assistant-sidebar .mcp-title {
@@ -45,10 +64,44 @@
   color: inherit;
   font-size: 12px;
   cursor: pointer;
+  transition: transform 150ms ease;
+}
+
+#mcp-assistant-sidebar button:hover {
+  opacity: 0.8;
 }
 
 #mcp-assistant-sidebar .mcp-body {
   padding: 12px;
+  overflow-y: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Quick actions */
+.mcp-quick-actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+}
+
+.mcp-quick-btn {
+  padding: 8px 6px;
+  border-radius: 8px;
+  background: rgba(59, 130, 246, 0.15);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  color: #93c5fd;
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mcp-quick-btn:hover {
+  background: rgba(59, 130, 246, 0.25);
+  transform: translateY(-1px);
 }
 
 #mcp-assistant-sidebar textarea#mcp-prompt {
@@ -61,16 +114,19 @@
   border: 1px solid rgba(255,255,255,0.03);
   color: inherit;
   outline: none;
+  font-family: inherit;
+  font-size: 13px;
 }
 
 .mcp-controls {
   display: flex;
-  gap: 8px;
-  margin-top: 8px;
+  gap: 6px;
+  flex-wrap: wrap;
 }
 
 .mcp-controls button {
   flex: 1;
+  min-width: 60px;
   padding: 8px 10px;
   border-radius: 8px;
   background: rgba(255,255,255,0.03);
@@ -78,20 +134,101 @@
   color: inherit;
 }
 
+.mcp-controls button:hover {
+  background: rgba(255,255,255,0.05);
+  transform: translateY(-1px);
+}
+
 .mcp-response {
-  margin-top: 12px;
   white-space: pre-wrap;
-  max-height: 280px;
+  max-height: 200px;
   overflow: auto;
   padding: 8px;
   background: rgba(255,255,255,0.01);
   border-radius: 8px;
   border: 1px solid rgba(255,255,255,0.02);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* History section */
+.mcp-history-section {
+  border-top: 1px solid rgba(255,255,255,0.05);
+  padding-top: 12px;
+}
+
+.mcp-history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.6);
+}
+
+.mcp-history-header button {
+  font-size: 11px;
+  padding: 4px 8px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 4px;
+}
+
+.mcp-history {
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.mcp-history-empty {
+  text-align: center;
+  padding: 12px;
+  color: rgba(255,255,255,0.4);
+  font-size: 12px;
+}
+
+.mcp-history-item {
+  padding: 8px;
+  margin-bottom: 6px;
+  background: rgba(255,255,255,0.02);
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 150ms ease;
+}
+
+.mcp-history-item:hover {
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.1);
+}
+
+.mcp-history-meta {
+  font-size: 10px;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 4px;
+}
+
+.mcp-history-prompt {
+  font-size: 11px;
+  color: rgba(255,255,255,0.8);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .mcp-footer {
-  margin-top: 8px;
+  margin-top: auto;
+  padding-top: 8px;
   display: flex;
   justify-content: flex-end;
   font-size: 12px;
+  flex-shrink: 0;
+}
+
+.mcp-footer a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+}
+
+.mcp-footer a:hover {
+  color: rgba(255,255,255,0.9);
 }

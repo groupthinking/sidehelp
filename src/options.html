@@ -4,36 +4,67 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>MCP Assistant Options</title>
-  <link rel="stylesheet" href="src/options.css">
+  <link rel="stylesheet" href="options.css">
 </head>
 <body>
   <main class="options">
     <h2>MCP Assistant Settings</h2>
 
-    <label>Local MCP Endpoint (e.g. http://localhost:8080/api)</label>
-    <input id="localEndpoint" type="text" placeholder="http://localhost:8080/mcp" />
+    <section class="section">
+      <h3>Legacy Endpoints</h3>
+      
+      <label>Local MCP Endpoint (e.g. http://localhost:8080/api)</label>
+      <input id="localEndpoint" type="text" placeholder="http://localhost:8080/mcp" />
+      <div class="endpoint-test">
+        <button id="ping-local" class="btn-test">Ping Local</button>
+        <span id="ping-local-status" class="status"></span>
+      </div>
 
-    <label>Local MCP Bearer Token (optional)</label>
-    <input id="localAuthToken" type="password" placeholder="optional token" />
+      <label>Local MCP Bearer Token (optional)</label>
+      <input id="localAuthToken" type="password" placeholder="optional token" />
 
-    <label>Remote MCP Endpoint (HTTPS)</label>
-    <input id="remoteEndpoint" type="text" placeholder="https://mcp.example.com/api" />
+      <label>Remote MCP Endpoint (HTTPS)</label>
+      <input id="remoteEndpoint" type="text" placeholder="https://mcp.example.com/api" />
+      <div class="endpoint-test">
+        <button id="ping-remote" class="btn-test">Ping Remote</button>
+        <span id="ping-remote-status" class="status"></span>
+      </div>
 
-    <label>Remote MCP Bearer Token (optional)</label>
-    <input id="remoteAuthToken" type="password" placeholder="optional token" />
+      <label>Remote MCP Bearer Token (optional)</label>
+      <input id="remoteAuthToken" type="password" placeholder="optional token" />
+    </section>
 
-    <label>Request timeout (ms)</label>
-    <input id="requestTimeoutMs" type="number" min="1000" step="1000" value="30000" />
+    <section class="section">
+      <h3>Endpoint Profiles</h3>
+      <p class="note">Configure multiple endpoints with custom settings. Profiles will be available in the sidebar and popup.</p>
+      
+      <div id="profiles-list"></div>
+      
+      <button id="add-profile" class="btn-secondary">+ Add Profile</button>
+    </section>
+
+    <section class="section">
+      <h3>General Settings</h3>
+      
+      <label>Request timeout (ms)</label>
+      <input id="requestTimeoutMs" type="number" min="1000" step="1000" value="30000" />
+    </section>
+
+    <section class="section">
+      <h3>Telemetry</h3>
+      <button id="view-telemetry" class="btn-secondary">View Stats</button>
+      <div id="telemetry-display" class="telemetry-display"></div>
+    </section>
 
     <div class="buttons">
-      <button id="save">Save</button>
-      <button id="load">Load</button>
-      <button id="clear">Clear</button>
+      <button id="save" class="btn-primary">Save</button>
+      <button id="load" class="btn-secondary">Reload</button>
+      <button id="clear" class="btn-danger">Clear All</button>
     </div>
 
     <p class="note">Make sure CORS / server settings allow requests from the extension. Background worker will proxy requests to endpoints to avoid page CORS issues.</p>
   </main>
 
-  <script src="src/options.js"></script>
+  <script src="options.js"></script>
 </body>
 </html>
