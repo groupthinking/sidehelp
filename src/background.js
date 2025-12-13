@@ -111,16 +111,12 @@ async function handleMcpRequest(message) {
   }
 
   // Build request body with context
-  const requestBody = { prompt };
-  if (context) {
-    requestBody.context = context;
-  }
-  if (preamble) {
-    requestBody.preamble = preamble;
-  }
-  if (temperature !== undefined) {
-    requestBody.temperature = temperature;
-  }
+  const requestBody = {
+    prompt,
+    ...(context && { context }),
+    ...(preamble && { preamble }),
+    ...(temperature !== undefined && { temperature })
+  };
 
   const fetchOptions = {
     method: "POST",

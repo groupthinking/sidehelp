@@ -25,7 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       if (resp.ok) {
         const responseText = typeof resp.data === "string" ? resp.data : JSON.stringify(resp.data, null, 2);
-        respEl.textContent = responseText + `\n\n[${resp.duration_ms}ms]`;
+        const duration = resp.duration_ms !== undefined ? `\n\n[${resp.duration_ms}ms]` : '';
+        respEl.textContent = responseText + duration;
       } else {
         respEl.textContent = `Error: ${resp.error}`;
       }

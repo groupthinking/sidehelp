@@ -91,6 +91,7 @@
   }
 
   // Per-tab history (in-memory, max 20 entries)
+  // Limit of 20 chosen to balance utility with memory usage per tab
   const history = [];
   const MAX_HISTORY = 20;
 
@@ -229,7 +230,7 @@
       prompt = "Explain the code in this " + (context.viewport_type || "page");
     }
     promptEl.value = prompt;
-    sendPrompt("local", prompt);
+    sendPrompt("local");
   });
 
   refactorBtn.addEventListener("click", () => {
@@ -241,7 +242,7 @@
       prompt = "Suggest refactoring improvements for this file";
     }
     promptEl.value = prompt;
-    sendPrompt("local", prompt);
+    sendPrompt("local");
   });
 
   testBtn.addEventListener("click", () => {
@@ -256,7 +257,7 @@
       prompt = "Write tests for this code";
     }
     promptEl.value = prompt;
-    sendPrompt("local", prompt);
+    sendPrompt("local");
   });
 
   summarizePRBtn.addEventListener("click", () => {
@@ -266,7 +267,7 @@
       prompt += ` #${context.pr_number}`;
     }
     promptEl.value = prompt;
-    sendPrompt("local", prompt);
+    sendPrompt("local");
   });
 
   draftPRBtn.addEventListener("click", () => {
@@ -276,7 +277,7 @@
       prompt += ` (PR #${context.pr_number})`;
     }
     promptEl.value = prompt;
-    sendPrompt("local", prompt);
+    sendPrompt("local");
   });
 
   optionsLink.addEventListener("click", (e) => {
@@ -285,8 +286,8 @@
     chrome.runtime.openOptionsPage();
   });
 
-  async function sendPrompt(endpoint, customPrompt = null) {
-    const prompt = customPrompt || promptEl.value.trim();
+  async function sendPrompt(endpoint) {
+    const prompt = promptEl.value.trim();
     if (!prompt) {
       respEl.textContent = "Please enter a prompt.";
       return;

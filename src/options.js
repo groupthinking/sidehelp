@@ -134,7 +134,11 @@ document.addEventListener("DOMContentLoaded", () => {
       urlEl.addEventListener('change', () => { profiles[idx].url = urlEl.value; });
       tokenEl.addEventListener('change', () => { profiles[idx].auth_token = tokenEl.value; });
       preambleEl.addEventListener('change', () => { profiles[idx].default_preamble = preambleEl.value; });
-      tempEl.addEventListener('change', () => { profiles[idx].default_temperature = parseFloat(tempEl.value) || undefined; });
+      tempEl.addEventListener('change', () => { 
+        const val = tempEl.value.trim();
+        const num = parseFloat(val);
+        profiles[idx].default_temperature = (val === '' || isNaN(num)) ? undefined : num;
+      });
     });
   }
 

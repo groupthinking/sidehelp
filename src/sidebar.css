@@ -3,6 +3,7 @@
   position: fixed;
   right: 12px;
   bottom: 12px;
+  /* Width increased from 360px to 380px to accommodate quick action buttons grid */
   width: 380px;
   max-width: calc(100% - 24px);
   max-height: calc(100vh - 24px);
