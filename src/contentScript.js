@@ -7,6 +7,15 @@
   if (window.__mcp_assistant_injected) return;
   window.__mcp_assistant_injected = true;
 
+  // Language mapping for file extensions
+  const LANGUAGE_MAP = {
+    'js': 'javascript', 'jsx': 'javascript', 'ts': 'typescript', 'tsx': 'typescript',
+    'py': 'python', 'rb': 'ruby', 'java': 'java', 'cpp': 'cpp', 'c': 'c',
+    'go': 'go', 'rs': 'rust', 'php': 'php', 'cs': 'csharp', 'swift': 'swift',
+    'kt': 'kotlin', 'md': 'markdown', 'html': 'html', 'css': 'css', 'json': 'json',
+    'yml': 'yaml', 'yaml': 'yaml', 'xml': 'xml', 'sh': 'shell', 'sql': 'sql'
+  };
+
   // Detect GitHub context from the current page
   function detectGitHubContext() {
     const url = window.location.href;
@@ -55,14 +64,7 @@
     // Detect language from file extension
     if (context.file_path) {
       const ext = context.file_path.split('.').pop().toLowerCase();
-      const langMap = {
-        'js': 'javascript', 'jsx': 'javascript', 'ts': 'typescript', 'tsx': 'typescript',
-        'py': 'python', 'rb': 'ruby', 'java': 'java', 'cpp': 'cpp', 'c': 'c',
-        'go': 'go', 'rs': 'rust', 'php': 'php', 'cs': 'csharp', 'swift': 'swift',
-        'kt': 'kotlin', 'md': 'markdown', 'html': 'html', 'css': 'css', 'json': 'json',
-        'yml': 'yaml', 'yaml': 'yaml', 'xml': 'xml', 'sh': 'shell', 'sql': 'sql'
-      };
-      context.language = langMap[ext] || ext;
+      context.language = LANGUAGE_MAP[ext] || ext;
     }
 
     return context;

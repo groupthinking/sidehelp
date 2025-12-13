@@ -137,7 +137,8 @@ document.addEventListener("DOMContentLoaded", () => {
       tempEl.addEventListener('change', () => { 
         const val = tempEl.value.trim();
         const num = parseFloat(val);
-        profiles[idx].default_temperature = (val === '' || isNaN(num)) ? undefined : num;
+        // Temperature must be between 0 and 1, or undefined
+        profiles[idx].default_temperature = (val === '' || isNaN(num) || num < 0 || num > 1) ? undefined : num;
       });
     });
   }

@@ -10,6 +10,9 @@
 // { ok: false, status: 0, endpoint: "local", duration_ms: 0, data: null, error: "<message>" }
 
 // Telemetry tracking
+// Keep last 100 latency samples to balance memory usage with statistical accuracy
+const MAX_LATENCY_SAMPLES = 100;
+
 const telemetry = {
   calls: {},
   latencies: {}
@@ -27,8 +30,8 @@ function trackCall(endpoint, duration_ms, success) {
     telemetry.calls[endpoint].failed++;
   }
   telemetry.latencies[endpoint].push(duration_ms);
-  // Keep only last 100 latencies
-  if (telemetry.latencies[endpoint].length > 100) {
+  // Keep only last MAX_LATENCY_SAMPLES latencies
+  if (telemetry.latencies[endpoint].length > MAX_LATENCY_SAMPLES) {
     telemetry.latencies[endpoint].shift();
   }
 }
@@ -166,6 +169,9 @@ async function handleMcpRequest(message) {
   }
 }
 
+// Ping timeout is shorter than regular requests for faster health checks
+const PING_TIMEOUT_MS = 5000;
+
 async function pingEndpoint(endpoint) {
   const startTime = Date.now();
   const keys = await getSettings(["localEndpoint", "remoteEndpoint", "localAuthToken", "remoteAuthToken", "profiles"]);
@@ -192,7 +198,7 @@ async function pingEndpoint(endpoint) {
 
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 5000);
+    const timeoutId = setTimeout(() => controller.abort(), PING_TIMEOUT_MS);
     
     const fetchOptions = {
       method: "GET",
