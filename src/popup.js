@@ -23,8 +23,9 @@ document.addEventListener("DOMContentLoaded", () => {
         respEl.textContent = "No response from background (maybe blocked by permissions).";
         return;
       }
-      if (resp.success) {
-        respEl.textContent = typeof resp.body === "string" ? resp.body : JSON.stringify(resp.body, null, 2);
+      if (resp.ok) {
+        const responseText = typeof resp.data === "string" ? resp.data : JSON.stringify(resp.data, null, 2);
+        respEl.textContent = responseText + `\n\n[${resp.duration_ms}ms]`;
       } else {
         respEl.textContent = `Error: ${resp.error}`;
       }

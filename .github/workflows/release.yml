@@ -1,0 +1,67 @@
+name: Release Extension
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Create icons directory
+      run: |
+        mkdir -p icons
+        # Create placeholder icon files if they don't exist
+        if [ ! -f icons/icon16.png ]; then
+          echo "Creating placeholder icons..."
+          # Note: In production, you should have actual icon files
+          touch icons/icon16.png icons/icon48.png icons/icon128.png
+        fi
+    
+    - name: Create extension package
+      run: |
+        zip -r mcp-assistant-${{ github.ref_name }}.zip \
+          manifest.json \
+          src/ \
+          icons/ \
+          README.md
+      
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref_name }}
+        release_name: Release ${{ github.ref_name }}
+        body: |
+          ## MCP Assistant Connector ${{ github.ref_name }}
+          
+          Chrome extension package for connecting GitHub pages to your local and remote MCPs.
+          
+          ### Installation
+          1. Download the `mcp-assistant-${{ github.ref_name }}.zip` file
+          2. Extract the contents
+          3. Open Chrome and go to `chrome://extensions/`
+          4. Enable "Developer mode"
+          5. Click "Load unpacked" and select the extracted folder
+          
+          ### What's New
+          See the commit history for details on changes in this release.
+        draft: false
+        prerelease: false
+      
+    - name: Upload Release Asset
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./mcp-assistant-${{ github.ref_name }}.zip
+        asset_name: mcp-assistant-${{ github.ref_name }}.zip
+        asset_content_type: application/zip
