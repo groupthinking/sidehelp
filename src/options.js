@@ -91,55 +91,111 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function renderProfiles() {
+    // Clear previous content
+    els.profilesList.innerHTML = '';
+
     if (profiles.length === 0) {
-      els.profilesList.innerHTML = '<div class="empty-state">No profiles configured</div>';
+      const emptyDiv = document.createElement('div');
+      emptyDiv.className = 'empty-state';
+      emptyDiv.textContent = 'No profiles configured';
+      els.profilesList.appendChild(emptyDiv);
       return;
     }
 
-    els.profilesList.innerHTML = profiles.map((profile, idx) => `
-      <div class="profile-item" data-idx="${idx}">
-        <div class="profile-header">
-          <input type="text" class="profile-name" value="${escapeHtml(profile.name)}" placeholder="Profile name" />
-          <button class="btn-icon btn-delete" data-idx="${idx}" title="Delete profile">🗑️</button>
-        </div>
-        <div class="profile-body">
-          <label>URL</label>
-          <input type="text" class="profile-url" value="${escapeHtml(profile.url)}" placeholder="https://api.example.com/mcp" />
-          
-          <label>Auth Token (optional)</label>
-          <input type="password" class="profile-token" value="${escapeHtml(profile.auth_token || '')}" placeholder="Bearer token" />
-          
-          <label>Default Preamble (optional)</label>
-          <textarea class="profile-preamble" placeholder="System instructions...">${escapeHtml(profile.default_preamble || '')}</textarea>
-          
-          <label>Temperature (optional, 0-1)</label>
-          <input type="number" class="profile-temperature" value="${profile.default_temperature || ''}" min="0" max="1" step="0.1" placeholder="0.7" />
-        </div>
-      </div>
-    `).join('');
+    profiles.forEach((profile, idx) => {
+      const itemDiv = document.createElement('div');
+      itemDiv.className = 'profile-item';
+      itemDiv.dataset.idx = idx;
 
-    // Attach event listeners
-    document.querySelectorAll('.btn-delete').forEach(btn => {
-      btn.addEventListener('click', () => deleteProfile(parseInt(btn.dataset.idx)));
-    });
+      // Profile header
+      const headerDiv = document.createElement('div');
+      headerDiv.className = 'profile-header';
 
-    document.querySelectorAll('.profile-item').forEach((item, idx) => {
-      const nameEl = item.querySelector('.profile-name');
-      const urlEl = item.querySelector('.profile-url');
-      const tokenEl = item.querySelector('.profile-token');
-      const preambleEl = item.querySelector('.profile-preamble');
-      const tempEl = item.querySelector('.profile-temperature');
+      const nameInput = document.createElement('input');
+      nameInput.type = 'text';
+      nameInput.className = 'profile-name';
+      nameInput.value = profile.name;
+      nameInput.placeholder = 'Profile name';
+      nameInput.addEventListener('change', () => { profiles[idx].name = nameInput.value; });
 
-      nameEl.addEventListener('change', () => { profiles[idx].name = nameEl.value; });
-      urlEl.addEventListener('change', () => { profiles[idx].url = urlEl.value; });
-      tokenEl.addEventListener('change', () => { profiles[idx].auth_token = tokenEl.value; });
-      preambleEl.addEventListener('change', () => { profiles[idx].default_preamble = preambleEl.value; });
-      tempEl.addEventListener('change', () => { 
-        const val = tempEl.value.trim();
+      const deleteBtn = document.createElement('button');
+      deleteBtn.className = 'btn-icon btn-delete';
+      deleteBtn.title = 'Delete profile';
+      deleteBtn.textContent = '🗑️';
+      deleteBtn.dataset.idx = idx;
+      deleteBtn.addEventListener('click', () => deleteProfile(idx));
+
+      headerDiv.appendChild(nameInput);
+      headerDiv.appendChild(deleteBtn);
+
+      // Profile body
+      const bodyDiv = document.createElement('div');
+      bodyDiv.className = 'profile-body';
+
+      // URL field
+      const urlLabel = document.createElement('label');
+      urlLabel.textContent = 'URL';
+      const urlInput = document.createElement('input');
+      urlInput.type = 'text';
+      urlInput.className = 'profile-url';
+      urlInput.value = profile.url;
+      urlInput.placeholder = 'https://api.example.com/mcp';
+      urlInput.addEventListener('change', () => { profiles[idx].url = urlInput.value; });
+
+      // Auth Token field
+      const tokenLabel = document.createElement('label');
+      tokenLabel.textContent = 'Auth Token (optional)';
+      const tokenInput = document.createElement('input');
+      tokenInput.type = 'password';
+      tokenInput.className = 'profile-token';
+      tokenInput.value = profile.auth_token || '';
+      tokenInput.placeholder = 'Bearer token';
+      tokenInput.addEventListener('change', () => { profiles[idx].auth_token = tokenInput.value; });
+
+      // Preamble field
+      const preambleLabel = document.createElement('label');
+      preambleLabel.textContent = 'Default Preamble (optional)';
+      const preambleTextarea = document.createElement('textarea');
+      preambleTextarea.className = 'profile-preamble';
+      preambleTextarea.placeholder = 'System instructions...';
+      preambleTextarea.value = profile.default_preamble || '';
+      preambleTextarea.addEventListener('change', () => { profiles[idx].default_preamble = preambleTextarea.value; });
+
+      // Temperature field
+      const tempLabel = document.createElement('label');
+      tempLabel.textContent = 'Temperature (optional, 0-1)';
+      const tempInput = document.createElement('input');
+      tempInput.type = 'number';
+      tempInput.className = 'profile-temperature';
+      tempInput.value = profile.default_temperature || '';
+      tempInput.min = '0';
+      tempInput.max = '1';
+      tempInput.step = '0.1';
+      tempInput.placeholder = '0.7';
+      tempInput.addEventListener('change', () => { 
+        const val = tempInput.value.trim();
         const num = parseFloat(val);
         // Temperature must be between 0 and 1, or undefined
-        profiles[idx].default_temperature = (val === '' || isNaN(num) || num < 0 || num > 1) ? undefined : num;
+        if (val !== '' && (isNaN(num) || num < 0 || num > 1)) {
+          showMessage('Temperature must be between 0 and 1', 'error');
+          tempInput.value = profiles[idx].default_temperature || '';
+          return;
+        }
+        profiles[idx].default_temperature = (val === '' || isNaN(num)) ? undefined : num;
       });
+
+      bodyDiv.appendChild(urlLabel);
+      bodyDiv.appendChild(urlInput);
+      bodyDiv.appendChild(tokenLabel);
+      bodyDiv.appendChild(tokenInput);
+      bodyDiv.appendChild(preambleLabel);
+      bodyDiv.appendChild(preambleTextarea);
+      bodyDiv.appendChild(tempLabel);
+      bodyDiv.appendChild(tempInput);
+
+      itemDiv.appendChild(headerDiv);
+      itemDiv.appendChild(bodyDiv);
+      els.profilesList.appendChild(itemDiv);
     });
   }
 
@@ -163,35 +219,60 @@ document.addEventListener("DOMContentLoaded", () => {
   async function viewTelemetry() {
     const stats = await chrome.runtime.sendMessage({ type: "getTelemetry" });
     
+    // Clear previous content
+    els.telemetryDisplay.innerHTML = "";
+
     if (!stats || Object.keys(stats).length === 0) {
-      els.telemetryDisplay.innerHTML = '<div class="empty-state">No telemetry data yet</div>';
+      const emptyDiv = document.createElement("div");
+      emptyDiv.className = "empty-state";
+      emptyDiv.textContent = "No telemetry data yet";
+      els.telemetryDisplay.appendChild(emptyDiv);
       return;
     }
 
-    els.telemetryDisplay.innerHTML = `
-      <table class="telemetry-table">
-        <thead>
-          <tr>
-            <th>Endpoint</th>
-            <th>Total</th>
-            <th>Success</th>
-            <th>Failed</th>
-            <th>Avg Latency</th>
-          </tr>
-        </thead>
-        <tbody>
-          ${Object.entries(stats).map(([endpoint, data]) => `
-            <tr>
-              <td>${escapeHtml(endpoint)}</td>
-              <td>${data.total}</td>
-              <td class="success">${data.success}</td>
-              <td class="error">${data.failed}</td>
-              <td>${data.avg_latency_ms}ms</td>
-            </tr>
-          `).join('')}
-        </tbody>
-      </table>
-    `;
+    const table = document.createElement("table");
+    table.className = "telemetry-table";
+
+    const thead = document.createElement("thead");
+    const headerRow = document.createElement("tr");
+    ["Endpoint", "Total", "Success", "Failed", "Avg Latency"].forEach(text => {
+      const th = document.createElement("th");
+      th.textContent = text;
+      headerRow.appendChild(th);
+    });
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
+
+    const tbody = document.createElement("tbody");
+    Object.entries(stats).forEach(([endpoint, data]) => {
+      const row = document.createElement("tr");
+
+      const endpointCell = document.createElement("td");
+      endpointCell.textContent = endpoint;
+      row.appendChild(endpointCell);
+
+      const totalCell = document.createElement("td");
+      totalCell.textContent = data.total;
+      row.appendChild(totalCell);
+
+      const successCell = document.createElement("td");
+      successCell.className = "success";
+      successCell.textContent = data.success;
+      row.appendChild(successCell);
+
+      const failedCell = document.createElement("td");
+      failedCell.className = "error";
+      failedCell.textContent = data.failed;
+      row.appendChild(failedCell);
+
+      const latencyCell = document.createElement("td");
+      latencyCell.textContent = data.avg_latency_ms + "ms";
+      row.appendChild(latencyCell);
+
+      tbody.appendChild(row);
+    });
+    table.appendChild(tbody);
+    els.telemetryDisplay.appendChild(table);
   }
 
   function escapeHtml(text) {

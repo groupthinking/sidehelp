@@ -32,6 +32,9 @@
   .mcp-controls button:hover {
     transform: none !important;
   }
+  .mcp-history-item {
+    transition: none !important;
+  }
 }
 
 /* collapsed state only shows header */
@@ -64,7 +67,13 @@
   color: inherit;
   font-size: 12px;
   cursor: pointer;
-  transition: transform 150ms ease;
+}
+
+/* Only apply transitions when user hasn't set reduced motion preference */
+@media (prefers-reduced-motion: no-preference) {
+  #mcp-assistant-sidebar button {
+    transition: transform 150ms ease;
+  }
 }
 
 #mcp-assistant-sidebar button:hover {
@@ -193,7 +202,13 @@
   border-radius: 6px;
   cursor: pointer;
   border: 1px solid transparent;
-  transition: all 150ms ease;
+}
+
+/* Only apply transitions when user hasn't set reduced motion preference */
+@media (prefers-reduced-motion: no-preference) {
+  .mcp-history-item {
+    transition: all 150ms ease;
+  }
 }
 
 .mcp-history-item:hover {

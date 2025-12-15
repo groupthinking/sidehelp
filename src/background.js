@@ -15,13 +15,15 @@ const MAX_LATENCY_SAMPLES = 100;
 
 const telemetry = {
   calls: {},
-  latencies: {}
+  latencies: {},
+  latencyIndex: {} // Track current position in circular buffer
 };
 
 function trackCall(endpoint, duration_ms, success) {
   if (!telemetry.calls[endpoint]) {
     telemetry.calls[endpoint] = { total: 0, success: 0, failed: 0 };
-    telemetry.latencies[endpoint] = [];
+    telemetry.latencies[endpoint] = new Array(MAX_LATENCY_SAMPLES);
+    telemetry.latencyIndex[endpoint] = 0;
   }
   telemetry.calls[endpoint].total++;
   if (success) {
@@ -29,18 +31,21 @@ function trackCall(endpoint, duration_ms, success) {
   } else {
     telemetry.calls[endpoint].failed++;
   }
-  telemetry.latencies[endpoint].push(duration_ms);
-  // Keep only last MAX_LATENCY_SAMPLES latencies
-  if (telemetry.latencies[endpoint].length > MAX_LATENCY_SAMPLES) {
-    telemetry.latencies[endpoint].shift();
-  }
+  
+  // Use circular buffer to avoid shift() operation
+  const idx = telemetry.latencyIndex[endpoint] % MAX_LATENCY_SAMPLES;
+  telemetry.latencies[endpoint][idx] = duration_ms;
+  telemetry.latencyIndex[endpoint]++;
 }
 
 function getTelemetry() {
   const stats = {};
   for (const endpoint in telemetry.calls) {
     const latencies = telemetry.latencies[endpoint];
-    const avg = latencies.length > 0 ? latencies.reduce((a, b) => a + b, 0) / latencies.length : 0;
+    const count = Math.min(telemetry.latencyIndex[endpoint], MAX_LATENCY_SAMPLES);
+    // Filter out undefined values in circular buffer
+    const validLatencies = latencies.filter(l => l !== undefined);
+    const avg = validLatencies.length > 0 ? validLatencies.reduce((a, b) => a + b, 0) / validLatencies.length : 0;
     stats[endpoint] = {
       ...telemetry.calls[endpoint],
       avg_latency_ms: Math.round(avg)
@@ -114,11 +119,18 @@ async function handleMcpRequest(message) {
   }
 
   // Build request body with context
+  // Validate temperature if provided
+  let validTemperature = temperature;
+  if (temperature !== undefined && (typeof temperature !== 'number' || temperature < 0 || temperature > 1)) {
+    console.warn(`Invalid temperature value: ${temperature}. Must be between 0 and 1. Ignoring.`);
+    validTemperature = undefined;
+  }
+  
   const requestBody = {
     prompt,
     ...(context && { context }),
     ...(preamble && { preamble }),
-    ...(temperature !== undefined && { temperature })
+    ...(validTemperature !== undefined && { temperature: validTemperature })
   };
 
   const fetchOptions = {
@@ -150,13 +162,25 @@ async function handleMcpRequest(message) {
     const duration_ms = Date.now() - startTime;
     trackCall(endpoint, duration_ms, res.ok);
 
+    // Try to extract a descriptive error message from the response body if available
+    let errorMsg = null;
+    if (!res.ok) {
+      if (data && typeof data === "object" && (data.error || data.message)) {
+        errorMsg = data.error || data.message;
+      } else if (typeof data === "string" && data.trim().length > 0) {
+        errorMsg = data;
+      } else {
+        errorMsg = `HTTP ${res.status}`;
+      }
+    }
+
     return { 
       ok: res.ok, 
       status: res.status, 
       endpoint, 
       duration_ms, 
       data, 
-      error: res.ok ? null : `HTTP ${res.status}` 
+      error: res.ok ? null : errorMsg 
     };
   } catch (err) {
     const duration_ms = Date.now() - startTime;

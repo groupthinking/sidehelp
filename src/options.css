@@ -56,3 +56,15 @@ textarea { min-height: 60px; resize: vertical; }
   from { transform: translateX(400px); opacity: 0; }
   to { transform: translateX(0); opacity: 1; }
 }
+
+/* Accessibility: Reduce motion for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .message-toast {
+    animation: fadeIn 0.01s linear;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

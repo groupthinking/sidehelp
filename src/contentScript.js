@@ -96,9 +96,29 @@
   // Limit of 20 chosen to balance utility with memory usage per tab
   const history = [];
   const MAX_HISTORY = 20;
+  const MAX_HISTORY_RESPONSE_SIZE = 10000; // Max chars per response in history
+  const MAX_PROMPT_DISPLAY_LENGTH = 60; // Truncate prompts in history display
 
   function addToHistory(entry) {
-    history.unshift(entry);
+    // Ensure response is a string and not too large
+    let respStr;
+    if (typeof entry.response === "string") {
+      respStr = entry.response;
+    } else if (entry.response !== undefined) {
+      try {
+        respStr = JSON.stringify(entry.response, null, 2);
+      } catch (e) {
+        respStr = "[Unserializable response]";
+      }
+    } else {
+      respStr = "";
+    }
+    if (respStr.length > MAX_HISTORY_RESPONSE_SIZE) {
+      respStr = respStr.substring(0, MAX_HISTORY_RESPONSE_SIZE) + "\n...[truncated]";
+    }
+    // Store only the truncated/serialized response
+    const safeEntry = { ...entry, response: respStr };
+    history.unshift(safeEntry);
     if (history.length > MAX_HISTORY) {
       history.pop();
     }
@@ -114,28 +134,47 @@
     const historyEl = container.querySelector("#mcp-history");
     if (!historyEl) return;
     
+    // Clear previous content
+    historyEl.innerHTML = '';
+
     if (history.length === 0) {
-      historyEl.innerHTML = '<div class="mcp-history-empty">No history yet</div>';
+      const emptyDiv = document.createElement('div');
+      emptyDiv.className = 'mcp-history-empty';
+      emptyDiv.textContent = 'No history yet';
+      historyEl.appendChild(emptyDiv);
       return;
     }
 
-    historyEl.innerHTML = history.map((entry, idx) => `
-      <div class="mcp-history-item" data-idx="${idx}">
-        <div class="mcp-history-meta">${entry.endpoint} • ${new Date(entry.timestamp).toLocaleTimeString()}</div>
-        <div class="mcp-history-prompt">${escapeHtml(entry.prompt.substring(0, 60))}${entry.prompt.length > 60 ? '...' : ''}</div>
-      </div>
-    `).join('');
+    history.forEach((entry, idx) => {
+      const itemDiv = document.createElement('div');
+      itemDiv.className = 'mcp-history-item';
+      itemDiv.dataset.idx = idx;
 
-    // Add click handlers to restore from history
-    historyEl.querySelectorAll('.mcp-history-item').forEach(el => {
-      el.addEventListener('click', () => {
-        const idx = parseInt(el.dataset.idx);
+      const metaDiv = document.createElement('div');
+      metaDiv.className = 'mcp-history-meta';
+      metaDiv.textContent = `${entry.endpoint} • ${new Date(entry.timestamp).toLocaleTimeString()}`;
+
+      const promptDiv = document.createElement('div');
+      promptDiv.className = 'mcp-history-prompt';
+      let promptText = entry.prompt.substring(0, MAX_PROMPT_DISPLAY_LENGTH);
+      if (entry.prompt.length > MAX_PROMPT_DISPLAY_LENGTH) {
+        promptText += '...';
+      }
+      promptDiv.textContent = promptText;
+
+      itemDiv.appendChild(metaDiv);
+      itemDiv.appendChild(promptDiv);
+
+      itemDiv.addEventListener('click', () => {
+        const idx = parseInt(itemDiv.dataset.idx);
         const entry = history[idx];
         if (entry) {
           promptEl.value = entry.prompt;
           respEl.textContent = typeof entry.response === "string" ? entry.response : JSON.stringify(entry.response, null, 2);
         }
       });
+
+      historyEl.appendChild(itemDiv);
     });
   }
 
