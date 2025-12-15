@@ -1,0 +1,60 @@
+name: Release Extension
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Verify icon files exist
+      run: |
+        # Fail the build if required icon files are missing
+        missing_icons=0
+        for icon in icons/icon16.png icons/icon48.png icons/icon128.png; do
+          if [ ! -f "$icon" ]; then
+            echo "ERROR: Required icon file '$icon' is missing."
+            missing_icons=1
+          fi
+        done
+        if [ "$missing_icons" -ne 0 ]; then
+          echo "One or more required icon files are missing. Please add them before releasing."
+          exit 1
+        fi
+    
+    - name: Create extension package
+      run: |
+        zip -r mcp-assistant-${{ github.ref_name }}.zip \
+          manifest.json \
+          src/ \
+          icons/ \
+          README.md
+      
+    - name: Create Release and Upload Asset
+      uses: softprops/action-gh-release@v1
+      with:
+        files: mcp-assistant-${{ github.ref_name }}.zip
+        body: |
+          ## MCP Assistant Connector ${{ github.ref_name }}
+          
+          Chrome extension package for connecting GitHub pages to your local and remote MCPs.
+          
+          ### Installation
+          1. Download the `mcp-assistant-${{ github.ref_name }}.zip` file
+          2. Extract the contents
+          3. Open Chrome and go to `chrome://extensions/`
+          4. Enable "Developer mode"
+          5. Click "Load unpacked" and select the extracted folder
+          
+          ### What's New
+          See the commit history for details on changes in this release.
+        draft: false
+        prerelease: false
