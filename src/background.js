@@ -42,7 +42,6 @@ function getTelemetry() {
   const stats = {};
   for (const endpoint in telemetry.calls) {
     const latencies = telemetry.latencies[endpoint];
-    const count = Math.min(telemetry.latencyIndex[endpoint], MAX_LATENCY_SAMPLES);
     // Filter out undefined values in circular buffer
     const validLatencies = latencies.filter(l => l !== undefined);
     const avg = validLatencies.length > 0 ? validLatencies.reduce((a, b) => a + b, 0) / validLatencies.length : 0;

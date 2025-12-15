@@ -178,12 +178,6 @@
     });
   }
 
-  function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
-  }
-
   // Create container
   const container = document.createElement("aside");
   container.id = "mcp-assistant-sidebar";

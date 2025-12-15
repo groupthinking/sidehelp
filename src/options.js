@@ -275,12 +275,6 @@ document.addEventListener("DOMContentLoaded", () => {
     els.telemetryDisplay.appendChild(table);
   }
 
-  function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text || '';
-    return div.innerHTML;
-  }
-
   els.save.addEventListener("click", save);
   els.load.addEventListener("click", load);
   els.clear.addEventListener("click", clearAll);
