@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "AI Browser Assistant",
+  "version": "1.0.0",
+  "description": "Intelligent browser automation with AI - Speed and Depth modes",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "contextMenus",
+    "scripting",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "service_worker": "core/service_worker.js"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["core/content_script.js"],
+    "run_at": "document_idle"
+  }],
+  "action": {
+    "default_popup": "ui/popup.html",
+    "default_icon": {
+      "16": "assets/icons/icon-16.png",
+      "48": "assets/icons/icon-48.png",
+      "128": "assets/icons/icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "assets/icons/icon-16.png",
+    "48": "assets/icons/icon-48.png",
+    "128": "assets/icons/icon-128.png"
+  }
+}

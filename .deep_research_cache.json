@@ -1,0 +1,1742 @@
+{
+  "requirements.txt": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/yofur1ym8127",
+    "mime_type": "text/plain",
+    "mtime": 1765917802.53399,
+    "upload_time": 1765925968.90479
+  },
+  "README.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/jzo20t5hqu74",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.2930367,
+    "upload_time": 1765925968.90479
+  },
+  "script.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/e0bi5si0s6t1",
+    "mime_type": "text/plain",
+    "mtime": 1753210539.217564,
+    "upload_time": 1765925968.90479
+  },
+  ".gitignore": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/xl0bjtjvz3sr",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.2926633,
+    "upload_time": 1765925968.90479
+  },
+  ".env": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/htxv4xj2m13o",
+    "mime_type": "text/plain",
+    "mtime": 1765919892.211134,
+    "upload_time": 1765925968.90479
+  },
+  "manifest.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/0a486wok3l1r",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.2953532,
+    "upload_time": 1765925968.90479
+  },
+  "mcp-bridge.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/cigq2j7lalns",
+    "mime_type": "text/plain",
+    "mtime": 1765803986.949106,
+    "upload_time": 1765925968.90479
+  },
+  "create_sidehelp_repo.sh": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/3dle7rkg2ab9",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.2934566,
+    "upload_time": 1765925968.90479
+  },
+  "start_agent.sh": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/tmmmz41kxdaa",
+    "mime_type": "text/plain",
+    "mtime": 1765921410.5614054,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/fre.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/5w515izkv409",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/tailwind.config.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/9gdy4qhj0thu",
+    "mime_type": "text/plain",
+    "mtime": 1751008418.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/openaiProxy.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/qmamg1e69ims",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/styles.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/z9nanlui5vx8",
+    "mime_type": "text/plain",
+    "mtime": 1751008493.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/workbox-config.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/qflb52mcvxz4",
+    "mime_type": "text/plain",
+    "mtime": 1750928015.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/gpuAgentRenderer.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/tep8s2un1ssa",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/vite.config.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/gmbmutrg7z63",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/README.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/6g0gf5vz8c93",
+    "mime_type": "text/plain",
+    "mtime": 1750928245.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/main.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/th4q3cjhjrtt",
+    "mime_type": "text/plain",
+    "mtime": 1750929194.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/agentState.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/y9urz9p0jnne",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/service-worker.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/q74m9jk5vk76",
+    "mime_type": "text/plain",
+    "mtime": 1750927927.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/mcpClient.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/iatk8gda764f",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/postcss.config.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/jazuucjs476d",
+    "mime_type": "text/plain",
+    "mtime": 1751008443.0,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/tsconfig.node.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/zpz8xanwr5fe",
+    "mime_type": "text/plain",
+    "mtime": 1758132271.7073386,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/index.html": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/b5x3a15w68nt",
+    "mime_type": "text/plain",
+    "mtime": 1758132271.5599713,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/tsconfig.app.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/3dc26pnglyci",
+    "mime_type": "text/plain",
+    "mtime": 1758132271.6964097,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/README.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/3lm38ib97trx",
+    "mime_type": "text/plain",
+    "mtime": 1758132271.548758,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/.gitignore": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/gzbyk8mjob67",
+    "mime_type": "text/plain",
+    "mtime": 1758132271.5499687,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/package-lock.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/c4wsc6f6su9g",
+    "mime_type": "text/plain",
+    "mtime": 1758132334.69182,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/package.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/ji78y2eiizd0",
+    "mime_type": "text/plain",
+    "mtime": 1758132271.7108655,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/tsconfig.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/33w7w0dcnkq1",
+    "mime_type": "text/plain",
+    "mtime": 1758132271.7065687,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/eslint.config.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/iwfrc0pajzqa",
+    "mime_type": "text/plain",
+    "mtime": 1758132271.550921,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/vite.config.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/bpqmw4p7vmgo",
+    "mime_type": "text/plain",
+    "mtime": 1758132271.708453,
+    "upload_time": 1765925968.90479
+  },
+  "mcp-assistant-1.0.0/README.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/c34xqiab3y87",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.0,
+    "upload_time": 1765925968.90479
+  },
+  "mcp-assistant-1.0.0/manifest.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/17wu64ueq6ti",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.0,
+    "upload_time": 1765925968.90479
+  },
+  "contextual-intelligence-checker/contextual-intelligence.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/ncjr5lgu1smh",
+    "mime_type": "text/plain",
+    "mtime": 1765923048.331969,
+    "upload_time": 1765925968.90479
+  },
+  "contextual-intelligence-checker/code.txt": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/v3tnwbj4df0s",
+    "mime_type": "text/plain",
+    "mtime": 1747986300.0,
+    "upload_time": 1765925968.90479
+  },
+  "contextual-intelligence-checker/index.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/0dgt5b62o1h2",
+    "mime_type": "text/plain",
+    "mtime": 1744895490.0,
+    "upload_time": 1765925968.90479
+  },
+  "contextual-intelligence-checker/package.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/jiig1cjc4dga",
+    "mime_type": "text/plain",
+    "mtime": 1744895490.0,
+    "upload_time": 1765925968.90479
+  },
+  "GLICPP_full_scaffold/index.html": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/oqhuwybnzo0r",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "GLICPP_full_scaffold/fre.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/39hscg05t6jn",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "GLICPP_full_scaffold/openaiProxy.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/n650scshzuow",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "GLICPP_full_scaffold/styles.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/794ttcc5xvqv",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "GLICPP_full_scaffold/gpuAgentRenderer.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/wokc46wq4mio",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "GLICPP_full_scaffold/vite.config.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/m83hg13naiha",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "GLICPP_full_scaffold/main.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/2zs45mzms7c7",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "GLICPP_full_scaffold/package.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/s7cbu1zguglp",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "GLICPP_full_scaffold/agentState.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/h2wkej0c0p76",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "GLICPP_full_scaffold/manifest.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/yfdsb5k2la0n",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "GLICPP_full_scaffold/mcpClient.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/gqboeoy8gdv9",
+    "mime_type": "text/plain",
+    "mtime": 1750941134.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/edge-cloud-continuum.txt": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/rswbkyni0mu2",
+    "mime_type": "text/plain",
+    "mtime": 1743673102.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/mcp-core.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/t2h6r2fpjzcp",
+    "mime_type": "text/plain",
+    "mtime": 1741756684.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/intent-engine.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/olxhwux6wyyh",
+    "mime_type": "text/plain",
+    "mtime": 1750232037.5287652,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/background.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/puy3tco1wq20",
+    "mime_type": "text/plain",
+    "mtime": 1750233608.011911,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/popup.html": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/s16ug6fw2f6k",
+    "mime_type": "text/plain",
+    "mtime": 1750233532.105008,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/mcp-server-code.py": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/m2zpvrmbwx9l",
+    "mime_type": "text/plain",
+    "mtime": 1741416261.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/edge-ai-extension-roadmap.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/waqxrr6v50tl",
+    "mime_type": "text/plain",
+    "mtime": 1750231959.1058824,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/project-summary.txt": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/tmzixh0cs9cf",
+    "mime_type": "text/plain",
+    "mtime": 1741756606.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/knowledge-graph.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/vpl432k9808z",
+    "mime_type": "text/plain",
+    "mtime": 1741756674.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/profile-manager.txt": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/wse2zlfx6qsg",
+    "mime_type": "text/plain",
+    "mtime": 1741756639.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/glic.har": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/g8djvwnycgvm",
+    "mime_type": "text/plain",
+    "mtime": 1750237542.4799633,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/extractors:gdocs.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/puo9wz17xo4d",
+    "mime_type": "text/plain",
+    "mtime": 1750232078.9408185,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/manifest.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/fhoemrx5171b",
+    "mime_type": "text/plain",
+    "mtime": 1750233682.212791,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/mcp-registry.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/6u3vy449hrbw",
+    "mime_type": "text/plain",
+    "mtime": 1741756617.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/mcp-connector.txt": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/k9bnsrqqg5rt",
+    "mime_type": "text/plain",
+    "mtime": 1741756611.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/mcp-extension.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/sn9ijost5u3p",
+    "mime_type": "text/plain",
+    "mtime": 1741756692.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/readme.txt": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/xqpu4a5xb93b",
+    "mime_type": "text/plain",
+    "mtime": 1741756577.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/webviewelement": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/8g0gteuvt2zz",
+    "mime_type": "text/plain",
+    "mtime": 1750236951.1467097,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/content.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/ey58korfyq7g",
+    "mime_type": "text/plain",
+    "mtime": 1750233478.88981,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/edge-cloud-continuum-adr.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/pjfcwu96jlzf",
+    "mime_type": "text/plain",
+    "mtime": 1743790884.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/agent-manager.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/jgbcqei9vtaw",
+    "mime_type": "text/plain",
+    "mtime": 1741756679.0,
+    "upload_time": 1765925968.90479
+  },
+  "icons/.gitkeep": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/0j9w5vbmj4eh",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.2944622,
+    "upload_time": 1765925968.90479
+  },
+  "src/popup.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/f51xt47turo5",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.2972589,
+    "upload_time": 1765925968.90479
+  },
+  "src/background.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/ltu5codvs9w1",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.2956991,
+    "upload_time": 1765925968.90479
+  },
+  "src/popup.html": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/8mnzrfy3mvne",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.2970953,
+    "upload_time": 1765925968.90479
+  },
+  "src/options.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/v73mzmuppcmp",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.2968361,
+    "upload_time": 1765925968.90479
+  },
+  "src/sidebar.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/yxkt539zhcbf",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.297422,
+    "upload_time": 1765925968.90479
+  },
+  "src/deep_research_rest.py": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/f0czy2wdm07d",
+    "mime_type": "text/plain",
+    "mtime": 1765925787.9103048,
+    "upload_time": 1765925968.90479
+  },
+  "src/options.html": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/cyuo2005gn87",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.2966325,
+    "upload_time": 1765925968.90479
+  },
+  "src/popup.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/vnu37jovwjwt",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.2969708,
+    "upload_time": 1765925968.90479
+  },
+  "src/global_agent.py": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/5rchgd3410pa",
+    "mime_type": "text/plain",
+    "mtime": 1765939902.7188082,
+    "upload_time": 1765941302.509523
+  },
+  "src/options.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/7hlpmvh483h4",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.2964127,
+    "upload_time": 1765925968.90479
+  },
+  "src/contentScript.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/gpeo3sfuugis",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.296024,
+    "upload_time": 1765925968.90479
+  },
+  "src/deep_research.py": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/el3g2yqxr15r",
+    "mime_type": "text/plain",
+    "mtime": 1765917818.6902769,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/src/visualization/AgentNetworkVisualizer.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/iv3f67wkzsq7",
+    "mime_type": "text/plain",
+    "mtime": 1750929302.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/src/config/abacus-config.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/dsap6qfzdm1o",
+    "mime_type": "text/plain",
+    "mtime": 1750929134.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/src/services/AbacusAIClient.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/pxlfxzaqw5qq",
+    "mime_type": "text/plain",
+    "mtime": 1751004321.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/src/agents/types/ReasoningAgent.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/h8mf19vjuo2m",
+    "mime_type": "text/plain",
+    "mtime": 1750929075.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/src/agents/core/GPUComputeEngine.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/d32yyrgl8i97",
+    "mime_type": "text/plain",
+    "mtime": 1751006707.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/src/agents/core/AgentRegistry.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/x06xvgercwbx",
+    "mime_type": "text/plain",
+    "mtime": 1750926854.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/src/agents/core/GPUComputeEngine-completion.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/5dz550p20w23",
+    "mime_type": "text/plain",
+    "mtime": 1750927548.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/src/agents/core/CommunicationFabric.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/wijezmvrp779",
+    "mime_type": "text/plain",
+    "mtime": 1750927053.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/src/agents/core/Agent.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/2lipaneeew0i",
+    "mime_type": "text/plain",
+    "mtime": 1750926671.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/src/agents/utils/EventEmitter.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/jsc7ugbt6rtd",
+    "mime_type": "text/plain",
+    "mtime": 1750926705.0,
+    "upload_time": 1765925968.90479
+  },
+  "glic-codebase/src/agents/utils/uuid.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/3assm5q0d72k",
+    "mime_type": "text/plain",
+    "mtime": 1750926728.0,
+    "upload_time": 1765925968.90479
+  },
+  "frontend/src/styles/connection-animation.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/6lrmmb4assw6",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.2942088,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/public/vite.svg": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/rccna5brf1r7",
+    "mime_type": "text/plain",
+    "mtime": 1758132271.5609653,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/src/App.tsx": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/spcnvlyuqcje",
+    "mime_type": "text/plain",
+    "mtime": 1758132271.564016,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/src/main.tsx": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/b3z2y5jj8zq0",
+    "mime_type": "text/plain",
+    "mtime": 1758132271.6949553,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/src/App.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/p69949tqe990",
+    "mime_type": "text/plain",
+    "mtime": 1758132271.5629902,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/src/index.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/6owyj0eu4lok",
+    "mime_type": "text/plain",
+    "mtime": 1758132271.6481411,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/src/vite-env.d.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/jwug30boezi8",
+    "mime_type": "text/plain",
+    "mtime": 1758132271.6957824,
+    "upload_time": 1765925968.90479
+  },
+  "ai-avatar-coach-overlay/src/assets/react.svg": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/fw5z2klsaple",
+    "mime_type": "text/plain",
+    "mtime": 1758132271.6341884,
+    "upload_time": 1765925968.90479
+  },
+  "mcp-assistant-1.0.0/icons/.gitkeep": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/tcbnv1ptpfgk",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.0,
+    "upload_time": 1765925968.90479
+  },
+  "mcp-assistant-1.0.0/src/popup.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/a7wca9w2vvrk",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.0,
+    "upload_time": 1765925968.90479
+  },
+  "mcp-assistant-1.0.0/src/background.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/b2wliolb75tg",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.0,
+    "upload_time": 1765925968.90479
+  },
+  "mcp-assistant-1.0.0/src/popup.html": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/6eupx12dzlx8",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.0,
+    "upload_time": 1765925968.90479
+  },
+  "mcp-assistant-1.0.0/src/options.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/23rzkn6l8oc2",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.0,
+    "upload_time": 1765925968.90479
+  },
+  "mcp-assistant-1.0.0/src/sidebar.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/so7i9z6iwaiv",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.0,
+    "upload_time": 1765925968.90479
+  },
+  "mcp-assistant-1.0.0/src/options.html": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/ibaofrctt7v6",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.0,
+    "upload_time": 1765925968.90479
+  },
+  "mcp-assistant-1.0.0/src/popup.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/4pcoslkrerfm",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.0,
+    "upload_time": 1765925968.90479
+  },
+  "mcp-assistant-1.0.0/src/options.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/otjs0v9irkl1",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.0,
+    "upload_time": 1765925968.90479
+  },
+  "mcp-assistant-1.0.0/src/contentScript.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/gtqygg07nwcv",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/background-js.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/w2wtl2ifdife",
+    "mime_type": "text/plain",
+    "mtime": 1741756670.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/sidepanel-js.txt": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/za3pj3za679l",
+    "mime_type": "text/plain",
+    "mtime": 1741756645.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/safari-extension-spec.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/iw3d55n0nq9a",
+    "mime_type": "text/plain",
+    "mtime": 1741416233.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/business-plan.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/1n12cat1ir79",
+    "mime_type": "text/plain",
+    "mtime": 1741416211.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/sidepanel-css.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/3p9u397yqsg1",
+    "mime_type": "text/plain",
+    "mtime": 1741756651.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/background.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/39upp6itcyyv",
+    "mime_type": "text/plain",
+    "mtime": 1741756670.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/extension-code.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/n6hquqofai1s",
+    "mime_type": "text/plain",
+    "mtime": 1741416252.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/dist-manual.pem": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/3snt0atz7dr1",
+    "mime_type": "text/plain",
+    "mtime": 1741430967.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/safari-extension-plan.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/m9i3vldvmbwb",
+    "mime_type": "text/plain",
+    "mtime": 1741416217.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/technical-architecture.mermaid": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/lygmfy5wmp5d",
+    "mime_type": "text/plain",
+    "mtime": 1741416226.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/manifest.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/fwftgo21jodu",
+    "mime_type": "text/plain",
+    "mtime": 1741756689.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/content-script.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/mnr95km61m1e",
+    "mime_type": "text/plain",
+    "mtime": 1741756663.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/sidepanel-html.txt": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/ev2kdfx88qty",
+    "mime_type": "text/plain",
+    "mtime": 1741756657.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/popup-js.txt": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/6nzkz2pqqx1z",
+    "mime_type": "text/plain",
+    "mtime": 1741756622.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/PyPI-Recovery-Codes-30addy.focus-2025-03-18T06_03_15.587541.txt": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/dnwazfmpysr0",
+    "mime_type": "text/plain",
+    "mtime": 1742277800.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/popup-css.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/9oqey88253y7",
+    "mime_type": "text/plain",
+    "mtime": 1741756628.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/.ext.code-workspace.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/ltutda9u3c9y",
+    "mime_type": "text/plain",
+    "mtime": 1741438975.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/.swim-extension.zip.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/s92dtpc3lo7y",
+    "mime_type": "text/plain",
+    "mtime": 1741554938.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/package-lock 2.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/afkwzinfhhjy",
+    "mime_type": "text/plain",
+    "mtime": 1741513274.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/chat file ref": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/vvmmgbvsegiw",
+    "mime_type": "text/plain",
+    "mtime": 1741417191.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/README.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/ixfvl4eqoma4",
+    "mime_type": "text/plain",
+    "mtime": 1741556388.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/CURSOR_DEBUGGING_GUIDE.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/2ckee8u5upen",
+    "mime_type": "text/plain",
+    "mtime": 1741433280.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/.gitignore": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/0f2jri07pdwc",
+    "mime_type": "text/plain",
+    "mtime": 1741556262.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/package-lock.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/bixkvkzdp1jb",
+    "mime_type": "text/plain",
+    "mtime": 1742370836.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/package.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/jytr7b1lai64",
+    "mime_type": "text/plain",
+    "mtime": 1741513273.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/.blackboxrules": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/73uou17iglbz",
+    "mime_type": "text/plain",
+    "mtime": 1741516905.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/.chrome-extension.zip.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/u9jlr3xaixyz",
+    "mime_type": "text/plain",
+    "mtime": 1741504358.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/docs/DEVELOPMENT_RULES.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/i9kgs4galos7",
+    "mime_type": "text/plain",
+    "mtime": 1741468867.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/docs/CLEAN_UP.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/m240xoyhfnnk",
+    "mime_type": "text/plain",
+    "mtime": 1741467547.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/simple.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/e8zz0dsgx0g1",
+    "mime_type": "text/plain",
+    "mtime": 1741423335.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/test.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/k6dkvq4iharu",
+    "mime_type": "text/plain",
+    "mtime": 1741423163.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/manifest.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/o8rh9d389l9w",
+    "mime_type": "text/plain",
+    "mtime": 1741508497.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/.gitignore": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/t1alyt985bmf",
+    "mime_type": "text/plain",
+    "mtime": 1741556262.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/.blackboxrules": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/r6jt5rcvskey",
+    "mime_type": "text/plain",
+    "mtime": 1741516905.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/pack/popup.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/d71dz53od5vj",
+    "mime_type": "text/plain",
+    "mtime": 1741504339.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/pack/content.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/s807j2ltaszc",
+    "mime_type": "text/plain",
+    "mtime": 1741504339.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/pack/background.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/c90e45u27wil",
+    "mime_type": "text/plain",
+    "mtime": 1741504339.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/pack/popup.html": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/6cucymio1ldv",
+    "mime_type": "text/plain",
+    "mtime": 1741504339.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/pack/manifest.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/4gl2h1k78ehk",
+    "mime_type": "text/plain",
+    "mtime": 1741504339.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/pack/content.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/cn1h8qgn2umz",
+    "mime_type": "text/plain",
+    "mtime": 1741504339.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/minimal_extension/popup.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/t8rjfw984zi5",
+    "mime_type": "text/plain",
+    "mtime": 1741505327.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/minimal_extension/content.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/4inay05dc3s4",
+    "mime_type": "text/plain",
+    "mtime": 1741505327.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/minimal_extension/background.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/f7z4x7105ifi",
+    "mime_type": "text/plain",
+    "mtime": 1741505327.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/minimal_extension/popup.html": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/j4szy6orl71s",
+    "mime_type": "text/plain",
+    "mtime": 1741505327.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/minimal_extension/manifest.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/p14oi4y4q2qn",
+    "mime_type": "text/plain",
+    "mtime": 1741506109.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/minimal_extension/content.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/64uxovr94fme",
+    "mime_type": "text/plain",
+    "mtime": 1741505327.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/extension_fixed/icon64.svg": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/nmiss4jgel2w",
+    "mime_type": "text/plain",
+    "mtime": 1741505151.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/extension_fixed/popup.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/2snh44295xaf",
+    "mime_type": "text/plain",
+    "mtime": 1741505151.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/extension_fixed/content.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/0mx7hu5kptei",
+    "mime_type": "text/plain",
+    "mtime": 1741505151.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/extension_fixed/icon48.svg": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/etsw4pp3n3n1",
+    "mime_type": "text/plain",
+    "mtime": 1741505151.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/extension_fixed/background.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/jxet6gd17pkq",
+    "mime_type": "text/plain",
+    "mtime": 1741505151.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/extension_fixed/popup.html": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/1eoq9nluhx7r",
+    "mime_type": "text/plain",
+    "mtime": 1741505151.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/extension_fixed/manifest.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/kdhqye8sq9p1",
+    "mime_type": "text/plain",
+    "mtime": 1741505159.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/extension_fixed/extension-test.html": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/5wjw0vqwrb93",
+    "mime_type": "text/plain",
+    "mtime": 1741433648.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/extension_fixed/content.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/eqs4ufje4b4b",
+    "mime_type": "text/plain",
+    "mtime": 1741505151.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/docs/DEVELOPMENT_RULES.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/ev2chssqrgfw",
+    "mime_type": "text/plain",
+    "mtime": 1741468867.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/docs/CLEAN_UP.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/b55qrnj9qnml",
+    "mime_type": "text/plain",
+    "mtime": 1741467547.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/docs/decisions/0001-edge-cloud-continuum.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/5klx92a7hus3",
+    "mime_type": "text/plain",
+    "mtime": 1741510720.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/docs/architecture/vision.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/gqr4kd6e2yqi",
+    "mime_type": "text/plain",
+    "mtime": 1750824466.947323,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/docs/architecture/state-continuity-fabric.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/6i6mherghqxg",
+    "mime_type": "text/plain",
+    "mtime": 1741510692.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/docs/build-process/README.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/hdw21ndzwzq5",
+    "mime_type": "text/plain",
+    "mtime": 1741465269.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/safari.ext/ext/docs/implementation/phase1-mcp-foundation.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/29s7pjvows4b",
+    "mime_type": "text/plain",
+    "mtime": 1741510706.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/.cursor/mcp-test.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/hl5o8wl0wlue",
+    "mime_type": "text/plain",
+    "mtime": 1742365448.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/.cursor/mcp-server.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/6vm2ub4v4648",
+    "mime_type": "text/plain",
+    "mtime": 1742369908.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/.cursor/mcp.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/7mg2qxapdki4",
+    "mime_type": "text/plain",
+    "mtime": 1742369869.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/test/tsconfig.debug.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/w672qcn0ly1p",
+    "mime_type": "text/plain",
+    "mtime": 1742365966.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/test/tsconfig.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/2c77h1ghktv2",
+    "mime_type": "text/plain",
+    "mtime": 1741468691.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/package/popup.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/35b8qvupjq94",
+    "mime_type": "text/plain",
+    "mtime": 1741504369.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/package/.content.css.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/y8zwbdvad5mo",
+    "mime_type": "text/plain",
+    "mtime": 1741504369.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/package/background.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/43dtn5tehrl0",
+    "mime_type": "text/plain",
+    "mtime": 1741504369.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/package/manifest.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/sm0edqrhj4px",
+    "mime_type": "text/plain",
+    "mtime": 1741504399.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/package/.popup.html.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/6kkkc4hvtk4s",
+    "mime_type": "text/plain",
+    "mtime": 1741504369.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/package/content.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/a08yul1dmdpc",
+    "mime_type": "text/plain",
+    "mtime": 1741504369.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/simple.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/zlxwdgfmnfzh",
+    "mime_type": "text/plain",
+    "mtime": 1741423335.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/test.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/95rvaigvhld0",
+    "mime_type": "text/plain",
+    "mtime": 1741423163.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/manifest.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/vdkk05atbt0i",
+    "mime_type": "text/plain",
+    "mtime": 1741508497.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/package/assets/icon64.svg": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/wesofzmjb33m",
+    "mime_type": "text/plain",
+    "mtime": 1741504358.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/package/assets/icon48.svg": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/c52zi0yb06wu",
+    "mime_type": "text/plain",
+    "mtime": 1741504358.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/package/assets/icon16.svg": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/hrz0ukmswh3w",
+    "mime_type": "text/plain",
+    "mtime": 1741504358.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/background/index.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/0koi1xg2ohre",
+    "mime_type": "text/plain",
+    "mtime": 1741418172.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/popup/popup.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/8gxymaxc8v34",
+    "mime_type": "text/plain",
+    "mtime": 1741418781.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/popup/.popup.css.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/t8yuoev9mevc",
+    "mime_type": "text/plain",
+    "mtime": 1741418732.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/content/.content.css.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/i824mflthtm0",
+    "mime_type": "text/plain",
+    "mtime": 1741418821.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/content/index.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/j02gm7o76pdf",
+    "mime_type": "text/plain",
+    "mtime": 1741418504.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/shared/chrome.d.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/i6gogc0jxniv",
+    "mime_type": "text/plain",
+    "mtime": 1741418670.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/shared/types.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/wm7zek6hccp4",
+    "mime_type": "text/plain",
+    "mtime": 1741418798.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/background/mcp/ServiceRegistry.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/k4hw1hggji9l",
+    "mime_type": "text/plain",
+    "mtime": 1741418313.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/background/mcp/MCPOrchestrator.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/6lw3uzahzvfy",
+    "mime_type": "text/plain",
+    "mtime": 1741418227.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/background/mcp/MentionParser.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/dmfouekphc7q",
+    "mime_type": "text/plain",
+    "mtime": 1742369888.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/background/mcp/ServerConnection.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/5w81xt2dkv7e",
+    "mime_type": "text/plain",
+    "mtime": 1741432819.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/background/state/StateManager.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/643vj8dg1nm6",
+    "mime_type": "text/plain",
+    "mtime": 1741432764.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/background/messaging/MessageHandler.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/agwq6q1d40bv",
+    "mime_type": "text/plain",
+    "mtime": 1741418426.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/content/ui/UIManager.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/cu378srniu2v",
+    "mime_type": "text/plain",
+    "mtime": 1741418620.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/chrome-extension/src/content/context/ContextExtractor.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/pny0hxgep9mi",
+    "mime_type": "text/plain",
+    "mtime": 1741418597.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/docs/decisions/.0001-edge-cloud-continuum.md.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/clzvzziy16fy",
+    "mime_type": "text/plain",
+    "mtime": 1741510720.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/docs/architecture/.vision.md.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/y4502x51hwvk",
+    "mime_type": "text/plain",
+    "mtime": 1741510649.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/docs/architecture/.state-continuity-fabric.md.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/867kutmudt2s",
+    "mime_type": "text/plain",
+    "mtime": 1741510692.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/docs/build-process/README.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/m3eoh5toads8",
+    "mime_type": "text/plain",
+    "mtime": 1742323972.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/docs/implementation/.phase1-mcp-foundation.md.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/6xk815220sjg",
+    "mime_type": "text/plain",
+    "mtime": 1741510706.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/background/background.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/y3cd788ym5b7",
+    "mime_type": "text/plain",
+    "mtime": 1741505151.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/background/index.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/z6dyj0gcxild",
+    "mime_type": "text/plain",
+    "mtime": 1741418172.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/background/background.js.map": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/4n3imzedhmdq",
+    "mime_type": "text/plain",
+    "mtime": 1741504338.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/popup/popup.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/gahgj6dvz02l",
+    "mime_type": "text/plain",
+    "mtime": 1741505151.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/popup/popup.js.map": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/gdg52iknu604",
+    "mime_type": "text/plain",
+    "mtime": 1741504338.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/popup/popup.html": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/72apv13qnjnb",
+    "mime_type": "text/plain",
+    "mtime": 1741511555.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/popup/popup.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/hl1apzsqtqz0",
+    "mime_type": "text/plain",
+    "mtime": 1741418781.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/popup/.index.html.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/sjy9flf19mgg",
+    "mime_type": "text/plain",
+    "mtime": 1741418696.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/popup/.popup.css.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/oa0y9w0sgsh3",
+    "mime_type": "text/plain",
+    "mtime": 1741418732.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/content/content.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/t8yov4x8utuw",
+    "mime_type": "text/plain",
+    "mtime": 1741505151.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/content/index.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/1w7o4rdvpa5r",
+    "mime_type": "text/plain",
+    "mtime": 1741418504.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/content/content.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/mzczjmfw8vtm",
+    "mime_type": "text/plain",
+    "mtime": 1741505151.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/shared/chrome.d.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/q4a56biajc78",
+    "mime_type": "text/plain",
+    "mtime": 1741418670.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/shared/types.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/fzcaibrafwos",
+    "mime_type": "text/plain",
+    "mtime": 1741418798.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/docs/ext.code-workspace": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/a5l5fawxhap9",
+    "mime_type": "text/plain",
+    "mtime": 1741438975.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/docs/chat file ref": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/yn7v0g832i1p",
+    "mime_type": "text/plain",
+    "mtime": 1741417191.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/docs/.CLEAN_UP.md.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/hmvapr53813t",
+    "mime_type": "text/plain",
+    "mtime": 1741467547.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/docs/README.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/0werqoo7awx5",
+    "mime_type": "text/plain",
+    "mtime": 1741556388.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/docs/CURSOR_DEBUGGING_GUIDE.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/azxhg4cj832z",
+    "mime_type": "text/plain",
+    "mtime": 1741433280.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/docs/.DEVELOPMENT_RULES.md.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/3q97xn3qojbq",
+    "mime_type": "text/plain",
+    "mtime": 1741468867.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/docs/CHROME_PACKED_EXTENSION_GUIDE.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/6zq0hc4rsl3a",
+    "mime_type": "text/plain",
+    "mtime": 1741436153.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/docs/CHROME_DEPLOYMENT_GUIDE.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/qbazpxgcew6m",
+    "mime_type": "text/plain",
+    "mtime": 1741435529.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/decisions/.0001-edge-cloud-continuum.md.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/bruqfy5097u7",
+    "mime_type": "text/plain",
+    "mtime": 1741510720.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/architecture/.vision.md.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/627fafk5c09l",
+    "mime_type": "text/plain",
+    "mtime": 1741510649.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/architecture/.state-continuity-fabric.md.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/fza776629t4e",
+    "mime_type": "text/plain",
+    "mtime": 1741510692.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/build-process/.README.md.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/x0q3ry91o36t",
+    "mime_type": "text/plain",
+    "mtime": 1741465269.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/implementation/.phase1-mcp-foundation.md.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/apikezauhccj",
+    "mime_type": "text/plain",
+    "mtime": 1741510706.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/scripts/.README.md.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/6i8uvgl6q6hp",
+    "mime_type": "text/plain",
+    "mtime": 1741465622.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/sidebar_extension/config-temp.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/h2de1jzw9ioa",
+    "mime_type": "text/plain",
+    "mtime": 1741554040.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/sidebar_extension/fallback-shell-integration.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/bkqf9vpdfekm",
+    "mime_type": "text/plain",
+    "mtime": 1741545674.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/sidebar_extension/popup.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/czkd7avwcowe",
+    "mime_type": "text/plain",
+    "mtime": 1741506362.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/sidebar_extension/sidepanel.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/enbmrom22qer",
+    "mime_type": "text/plain",
+    "mtime": 1741517113.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/sidebar_extension/.content.css.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/949784ham7z0",
+    "mime_type": "text/plain",
+    "mtime": 1741514156.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/sidebar_extension/background.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/we2x084ttbri",
+    "mime_type": "text/plain",
+    "mtime": 1741518518.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/sidebar_extension/config.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/in39ka4agdv3",
+    "mime_type": "text/plain",
+    "mtime": 1741518064.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/sidebar_extension/.sidepanel.html.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/4wsxybvv8bti",
+    "mime_type": "text/plain",
+    "mtime": 1741517340.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/sidebar_extension/manifest.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/yqcahv1cliuy",
+    "mime_type": "text/plain",
+    "mtime": 1741517655.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/sidebar_extension/mcp-client.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/vq6dlow88dyq",
+    "mime_type": "text/plain",
+    "mtime": 1741518457.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/sidebar_extension/.popup.html.icloud": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/7b7jeri3ttex",
+    "mime_type": "text/plain",
+    "mtime": 1741506342.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/sidebar_extension/content.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/4jd3gmkm4tdw",
+    "mime_type": "text/plain",
+    "mtime": 1741514131.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/package/package-lock.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/emuil1gdszp6",
+    "mime_type": "text/plain",
+    "mtime": 1741513274.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/package/package.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/a3n4moil4b6c",
+    "mime_type": "text/plain",
+    "mtime": 1741513273.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/background/mcp/ServiceRegistry.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/ytg9s646fc51",
+    "mime_type": "text/plain",
+    "mtime": 1741418313.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/background/mcp/MCPOrchestrator.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/4xgpwfixolpb",
+    "mime_type": "text/plain",
+    "mtime": 1741418227.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/background/mcp/MentionParser.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/hgrw5g9q1asw",
+    "mime_type": "text/plain",
+    "mtime": 1742369888.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/background/mcp/ServerConnection.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/g9rkzr34ak19",
+    "mime_type": "text/plain",
+    "mtime": 1741432819.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/background/state/StateManager.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/1w1g5qpfjh2h",
+    "mime_type": "text/plain",
+    "mtime": 1741432764.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/background/messaging/MessageHandler.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/muurode0zlsg",
+    "mime_type": "text/plain",
+    "mtime": 1741418426.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/content/ui/UIManager.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/672pwkqch91o",
+    "mime_type": "text/plain",
+    "mtime": 1741418620.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/content/context/ContextExtractor.ts": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/jlrjyeirza82",
+    "mime_type": "text/plain",
+    "mtime": 1741418597.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/sidebar_extension/assets/icon64.svg": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/ygvsjbvobg4h",
+    "mime_type": "text/plain",
+    "mtime": 1741513402.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/sidebar_extension/assets/icon48.svg": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/iofxuhh21w31",
+    "mime_type": "text/plain",
+    "mtime": 1741513402.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/sidebar_extension/assets/icon16.svg": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/y35yark5njqz",
+    "mime_type": "text/plain",
+    "mtime": 1741513402.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/package/build/webpack.config.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/lm1sueih7evi",
+    "mime_type": "text/plain",
+    "mtime": 1741465469.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/package/build/pack-build.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/vbbf230jvnr8",
+    "mime_type": "text/plain",
+    "mtime": 1741467451.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/package/build/webpack.simple.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/6nj4jbhtmwgv",
+    "mime_type": "text/plain",
+    "mtime": 1741465512.0,
+    "upload_time": 1765925968.90479
+  },
+  "AI Extensions/atme_extension/package/build/webpack.debug.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/ms16i59ierl4",
+    "mime_type": "text/plain",
+    "mtime": 1741465490.0,
+    "upload_time": 1765925968.90479
+  },
+  ".github/workflows/release.yml": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/u5w35b83bzr3",
+    "mime_type": "text/plain",
+    "mtime": 1765865367.2923243,
+    "upload_time": 1765925968.90479
+  },
+  "auto_input.txt": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/2phc3ger31zg",
+    "mime_type": "text/plain",
+    "mtime": 1765927223.6334984,
+    "upload_time": 1765927416.101494
+  },
+  ".deep_research_cache.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/zwhyfyteewq4",
+    "mime_type": "text/plain",
+    "mtime": 1765927418.384334,
+    "upload_time": 1765941302.509523
+  },
+  ".deep_research_brain.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/i3v9mks7oc8q",
+    "mime_type": "text/plain",
+    "mtime": 1765930856.4807456,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/full-ai-interpretation-mcp.py": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/f253fpz70h3e",
+    "mime_type": "text/plain",
+    "mtime": 1750351782.0,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/setup-full-ai-framework.sh": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/ot7kxnhqc35z",
+    "mime_type": "text/plain",
+    "mtime": 1750351865.370983,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/README.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/utm77e6tlcg9",
+    "mime_type": "text/plain",
+    "mtime": 1750395393.6762516,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/.gitignore": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/x9z3085pofkd",
+    "mime_type": "text/plain",
+    "mtime": 1750395393.6844707,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/manifest.json": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/gnykqyi0usvk",
+    "mime_type": "text/plain",
+    "mtime": 1750395393.5656645,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/setup-ai-dev-tools.sh": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/89n0nmmq8ddz",
+    "mime_type": "text/plain",
+    "mtime": 1750350449.1667056,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/ai-dev-tools-mcp-server.py": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/hv92nertrpgq",
+    "mime_type": "text/plain",
+    "mtime": 1750350340.6581106,
+    "upload_time": 1765941302.509523
+  },
+  ".agent/workflows/solve.md": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/shc712ztb7gx",
+    "mime_type": "text/plain",
+    "mtime": 1765928770.140028,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/ui/popup.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/r2vmw1awlbnj",
+    "mime_type": "text/plain",
+    "mtime": 1750395393.6066577,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/ui/popup.html": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/f9d623vqnabh",
+    "mime_type": "text/plain",
+    "mtime": 1750395393.5908546,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/ui/popup.css": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/v6gjz4a0j6b2",
+    "mime_type": "text/plain",
+    "mtime": 1750395393.5987895,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/core/content_script.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/sc6mhjo2i30g",
+    "mime_type": "text/plain",
+    "mtime": 1750395393.5810368,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/core/service_worker.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/o51ggrbyspxz",
+    "mime_type": "text/plain",
+    "mtime": 1750395393.572331,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/ui/components/popup_controller.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/c4cy9wbjxrtb",
+    "mime_type": "text/plain",
+    "mtime": 1750395393.6150126,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/modules/features/feature_manager.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/y0vg6qy8zuwg",
+    "mime_type": "text/plain",
+    "mtime": 1750395393.6448727,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/modules/ai/ai_service.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/3pjset37kois",
+    "mime_type": "text/plain",
+    "mtime": 1750395393.62948,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/modules/automation/automation_engine.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/ipp3m6ydu49z",
+    "mime_type": "text/plain",
+    "mtime": 1750395393.6366024,
+    "upload_time": 1765941302.509523
+  },
+  "ai-browser-extension/modules/extractors/context_extractor.js": {
+    "uri": "https://generativelanguage.googleapis.com/v1beta/files/xxl0c1otwox6",
+    "mime_type": "text/plain",
+    "mtime": 1750395393.6221893,
+    "upload_time": 1765941302.509523
+  }
+}
